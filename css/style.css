@@ -1172,7 +1172,7 @@ body {
 
 	.main__btn-green-text {
 		top: 15px;
-		left: 10px;
+		left: 3px;
 		max-width: 215px;
 		font-size: 10px;
 		line-height: 16px;
@@ -1190,7 +1190,7 @@ body {
 
 	.main__btn-orange-text {
 		top: 15px;
-		left: 30px;
+		left: 20px;
 		max-width: 180px;
 		font-size: 10px;
 		line-height: 16px;
