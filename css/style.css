@@ -936,7 +936,7 @@ body {
 }
 
 .main__buttons a:hover .main__btn-green-text {
-	left: 15%;
+	left: 10%;
 }
 
 .main__buttons .main__btn-green:hover {
@@ -982,7 +982,7 @@ body {
 }
 
 .main__buttons a:hover .main__btn-orange-text {
-	left: 15%;
+	left: 10%;
 }
 
 .main__buttons .main__btn-orange:hover {
