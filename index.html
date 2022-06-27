@@ -9,6 +9,10 @@
 	<link rel="stylesheet" href="css/stylesheet.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<script src="./js/burger.js" defer></script>
+	<script src="./js/modal.js" defer></script>
+	<script src="./js/sendForm.js" defer></script>
+	<script src="./js/maskPhone.js" defer></script>
+	<script src="./js/descrModal.js" defer></script>
 	<title>Roofing academy</title>		
 </head>
 <body>
@@ -238,5 +242,65 @@
 			</div>
 		</div>		
 	</section>
+
+	<!-- modal-description (start) -->
+	<div class="main__description-modal">
+		<div class="description-modal-text">
+			<p class="main__description-text"><span class="main__description-text-bold">Гарантия от 50 лет</span> на материалы и 5 лет на монтаж</p>
+			<span class="descr-modal__text">Нажмите на плюсик, чтобы увидеть все преимущества работы с нами</span>
+		</div>		
+		<button class="descr-modal__btn"></button>
+		<img class="descr-modal__btn-img" src="./imgs/plus.svg" alt="plus">		
+	</div>
+	<div class="description-modal hidden">
+		<div class="description-modal-text">
+			<p class="main__description-text"><span class="main__description-text-bold">Замер, монтажный проект</span> и еще 4 услуги бесплатно </p>
+			<p class="main__description-text"><span class="main__description-text-bold">Сметы точны</span> до копейки </p>
+			<p class="main__description-text"><span class="main__description-text-bold">Поэтапная оплата</span>, кредит или рассрочка </p>
+			<p class="main__description-text"><span class="main__description-text-bold">Наши крыши в каждом поселке</span> и дачном сообществе региона </p>
+		</div>		
+	</div>
+	<!-- modal-description (end) -->
+
+	<!-- modal-form (start) -->
+	<div class="modal hidden">
+      <div class="overlay"></div>
+      <div class="modal-wrapper">
+			<div class="modal-wrapper-body">
+				<h2 class="modal__title">
+					Быстро </br> оставить заявку
+				  </h2>
+				  <p class="modal__descr">
+					Введите номер, мы позвоним вам в течение 10 минут в рабочее время
+				  </p>
+				  <p class="modal__resc">
+					Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00
+				  </p>
+				  <button
+					 type="button"
+					 class="modal__close"
+					 aria-label="закрыть модальное окно"
+				  ></button>
+				  <form class="form modal__form">
+						<label for="phone" class="form__label">Введите номер телефона</label>
+						<input
+							id="phone"
+							type="tel"
+							name="phone"
+							class="modal__input"
+						/>
+						<span class="error"></span>
+						<button type="submit" class="modal__button">
+							Позвоните мне
+						</button>
+						<div class="modal__checkbox">
+							<input id="checkbox" class="modal__checkbox-input" type="checkbox">				
+							<label class="modal__checkbox-label" for="checkbox">Нажимая кнопку вы соглашаетесь с условиями <a href="#" class="modal__checkbox-label-link">Политики конфиденциальности</a></label>			
+						</div>
+				  </form>				  	
+			</div>      
+      </div> 
+    </div>
+    <!-- modal-form (end) -->
 </body>
 </html>
